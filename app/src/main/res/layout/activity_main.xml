@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Name :"
+            android:textColor="@color/LabelTextColor"
+            android:textSize="27dp" />
+
+        <EditText
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Ex : Parsa"
+            android:textColor="#1A1717"
+            android:textSize="27dp" />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/LabelTextColor"
+            android:layout_margin="20dp"
+            android:textSize="27dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email : "/>
+
+        <EditText
+            android:id="@+id/txtEmail"
+            android:layout_marginTop="19dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="27dp"
+            android:hint="Ex : test@gmail.com" />
+    </LinearLayout>
+
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+        <TextView
+        android:layout_margin="20dp"
+        android:textSize="27dp"
+        android:text="Age :"
+
+        android:textColor="@color/LabelTextColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+     <EditText
+         android:id="@+id/txtAge"
+         android:maxLength="2"
+         android:hint="Ex : 15"
+         android:layout_marginLeft="25dp"
+         android:layout_marginTop="19dp"
+         android:textSize="27dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Phone :"
+            android:textColor="@color/LabelTextColor"
+            android:textSize="27dp"
+            android:layout_margin="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:inputType="phone"
+            android:id="@+id/txtphone"
+            android:maxLength="11"
+            android:textSize="27dp"
+            android:layout_marginTop="19dp"
+            android:hint="Ex: 0931475125"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/BtnSubmit"
+            android:layout_marginTop="40dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:inputType="textEmailAddress"
+            android:padding="20dp"
+            android:text="Submit"
+            android:textSize="27dp" />
+
+
+
+
+
+
+</LinearLayout>
