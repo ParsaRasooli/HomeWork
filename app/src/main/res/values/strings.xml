@@ -1,4 +1,15 @@
 <resources>
     <string name="app_name">Tasks</string>
     <string name="title_activity_confirm">ConfirmActivity</string>
+    <string name="name">Name :</string>
+    <string name="ex_parsa">Ex : Parsa</string>
+    <string name="email">Email :</string>
+    <string name="ex_15">Ex : 15</string>
+    <string name="phone">Phone :</string>
+    <string name="ex_phone">Ex: 0931475125</string>
+    <string name="submit">Submit</string>
+    <string name="age">Age :</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
 </resources>
